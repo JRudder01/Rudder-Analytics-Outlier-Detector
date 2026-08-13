@@ -58,7 +58,7 @@ with st.form("outlier_form"):
 
         robust_z_threshold = st.number_input(
             "Robust Z threshold",
-            min_value=1.5,
+            min_value=0,
             max_value=8.0,
             value=3.5,
             step=0.1,
